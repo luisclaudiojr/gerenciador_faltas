@@ -1,0 +1,111 @@
+body {
+	margin-top: 70px;
+}
+
+body, .detalheArredondado {
+	background-image: url(../img/noise.png) ;
+	background-color: #EBEBEB;
+}
+
+.larguraDoSite {
+	margin-top: 20px;
+	max-width:1210px
+}
+
+.container {
+	width:auto;
+	margin:20px;
+}
+
+.widget {
+	box-shadow: 0 0 1em #B1B1B1;
+	border: 1px solid #DDD;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	margin-bottom: 30px;
+	background-color: white;
+	overflow:hidden
+} 
+
+.nav-stacked > li a {
+	background:white;
+	padding:13px;
+}
+
+.widget-header {
+	background: #222222;
+	cursor: pointer;
+	padding:4px;
+}
+
+.widget-content {
+	background: ;
+	padding:30px;
+}
+
+.widget-content p {
+	margin: 10px;
+}
+
+.widget-header [class^="icon-"],
+.widget-header [class*=" icon-"] {
+	display: inline-block;
+	margin-left: 13px;
+	margin-right: -2px;
+	font-size: 16px;
+	vertical-align: middle;
+}
+
+.widget-header h3 {
+	position: relative;
+	top: 2px;
+	left: 10px;
+	display: inline-block;
+	margin-right: 3em;
+	font-size: 14px;
+	font-weight: 800;
+	color: white;
+	line-height: 18px;
+}
+
+.widget-header span.caret {
+	margin-top: 17px;
+	margin-right: 17px;
+	border-top-color:white;
+	border-bottom-color:white;
+}
+
+.sidebar {
+	max-width: 250px;
+}
+
+.sidebar ul li a {
+	background: #508691;
+	color: white;
+}
+
+.sidebar ul li a:hover {
+	background: black;
+}
+
+.logo {
+	max-height:150px;
+}
+
+#info_do_usuario h3,
+#info_do_usuario h2,
+#info_do_usuario h5 {
+	margin:0;
+	padding:0;
+	line-height:1em;
+}
+
+.avatar {
+	height:110px;
+}
+
+hr {
+	border-color: silver;
+	border-bottom:0;
+}
